@@ -1,0 +1,100 @@
+.gfind{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.gf_nav{
+    width: 25%;
+    height: 3rem;
+    position: fixed;
+    left: 0;
+}
+.gf_nav>li{
+
+}
+.gf_nav>li>a{
+    display: block;
+    width: 100%;
+    height: 0.9rem;
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.3rem;
+    color: #8C8C8C;
+}
+.gf_cont{
+    width: 75%;
+    margin-bottom: 0.9rem;
+}
+.gf_cont>li{
+
+}
+.gf_cont>li>a{
+    display: flex;
+    border-bottom: 0.01rem solid #E2E2E2;
+    padding-bottom: 0.24rem;
+}
+.gf_img{
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: red;
+    border-radius: 0.2rem;
+    overflow: hidden;
+}
+.gf_img>img{
+
+}
+.gf_info{
+    width: 74%;
+    height: 1.1rem;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+}
+.gf_info>ul{
+    display: flex;
+    align-items: center;
+}
+.gf_info>ul>h6{
+    font-size: 0.3rem;
+
+}
+.gf_info>ul>li{
+    font-size: 0.24rem;
+    padding: 0 0.1rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    margin-left: 0.1rem;
+    border-radius: 0.1rem;
+    color: #FFF;
+}
+.gf_info>div{
+    display: flex;
+    align-items: flex-end;
+
+}
+.gf_info>div>span{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+}
+.gf_info>div>span>i{
+    font-size: 0.24rem;
+    color: #888;
+}
+.gf_info>div>span>p{
+    font-size: 0.24rem;
+    text-overflow:clip;
+    -webkit-line-clamp:1;
+    color: #888;
+}
+.gf_info>div>b{
+    font-size: 0.26rem;
+    width: 1.8rem;
+    padding: 0 0.1rem;
+    height: 0.48rem;
+    text-align: center;
+    line-height: 0.44rem;
+    border-radius: 0.07rem;
+    border: 0.01rem solid #F01A21;
+    color: #F01A21;
+}
